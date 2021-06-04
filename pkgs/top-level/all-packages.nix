@@ -20783,7 +20783,7 @@ in
 
     v86d = callPackage ../os-specific/linux/v86d { };
 
-    veikk-linux-driver = callPackage .../os-specific/linux/veikk/driver {  };
+    veikk-linux-driver = callPackage ../os-specific/linux/veikk/driver {  };
 
     vendor-reset = callPackage ../os-specific/linux/vendor-reset { };
 
