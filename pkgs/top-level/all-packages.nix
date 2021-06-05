@@ -31808,4 +31808,9 @@ in
   zthrottle = callPackage ../tools/misc/zthrottle { };
 
   zktree = callPackage ../applications/misc/zktree {};
+
+  veikk-linux-driver-gui = callPackage ../os-specific/linux/veikk/gui {
+    inherit (qt5) qmake;
+    inherit (qt5) mkDerivation;
+  };
 }
